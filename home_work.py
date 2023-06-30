@@ -1,6 +1,6 @@
-def my_funk(s):
-  a = s[::-1]
-  if s == a:
+def is_palindrom(line):
+  backwards = line[::-1]
+  if line == backwards:
     return True
   else:
     return False
